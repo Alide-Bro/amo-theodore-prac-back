@@ -54,3 +54,15 @@ body{
     width: 100%;
     z-index: -1;
 }
+@media (min-aspect-ratio: 16/9){
+    .vd{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .vd{
+        width: auto;
+        height: 100%;
+    }
+}
